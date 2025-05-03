@@ -54,8 +54,8 @@ with col2:
 with col3:
     st.image("https://images.unsplash.com/photo-1541888946425-d81bb19240f5", caption="Construction Projects")
 
-# Data path
-data_path = "attached_assets/9 - last_7_days.csv"
+# Data path - use sample data file from data_samples directory
+data_path = "data_samples/sample_permit_data.csv"
 
 # Database management section in sidebar
 st.sidebar.title("Orleans Steel Permit Tool")
